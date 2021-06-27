@@ -18,7 +18,8 @@
     "development": {
       "plugins": [
         "@sanity/vision"
-      ]
+      ],
+      "dataset": "test"
     }
   },
   "parts": [
