@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build:web": "next build",
+    "start:web": "next start",
+    "lint": "next lint",
+    "build:sanity": "cd sanity && sanity build",
+    "start:sanity": "cd sanity && sanity start"
   },
   "dependencies": {
     "next": "11.0.0",
