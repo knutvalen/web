@@ -8,11 +8,13 @@
     "start:web": "next start",
     "lint": "next lint",
     "build:sanity": "cd sanity && sanity build",
-    "start:sanity": "cd sanity && sanity start"
+    "start:sanity": "cd sanity && sanity start",
+    "deploy:sanity": "cd sanity && sanity deploy && cd .."
   },
   "dependencies": {
     "@sanity/block-content-to-react": "^3.0.0",
     "next": "11.0.0",
+    "next-sanity": "^0.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.3.0",
