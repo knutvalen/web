@@ -1,7 +1,7 @@
 import { createClient } from 'next-sanity';
-import sanityClientConfiguration from '../configurations/sanityClient';
+import configuration from '../configurations/sanityClient';
 
-const client = () => createClient(sanityClientConfiguration);
+const client = () => createClient(configuration);
 
 const postFields = `
   _id,
